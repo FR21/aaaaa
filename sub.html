@@ -1,0 +1,21 @@
+<html>
+
+<body>
+    <h1>Hello Gaes, Gw Vmow</h1>
+    <img src="https://i.pinimg.com/originals/57/89/1c/57891c04a3bf443357c178327c1d3a16.gif">
+    <h1>Gw Ganteng Ngak ?</h1>
+    <h4>Jawaban Kalian Terekam di Roblox Gw</h4>
+    <button id='btn_mau' onclick='alert("Gw Ganteng, Lu Jelek :v")'>Ganteng</button>&nbsp;
+    <button id='btn_gamau' onclick='gamau(this)' style='position:absolute'>Jelek</button>
+</body>
+<script>
+    function gamau(id) {
+        var mau = document.getElementById('btn_mau');
+        var i = Math.floor(Math.random() * 300) + 1;
+        var j = Math.floor(Math.random() * 100) + mau.offsetTop;
+        id.style.left = i + 'px';
+        id.style.top = j + 'px';
+    }
+</script>
+
+</html>
